@@ -10,7 +10,7 @@ class Pi
 
     private static float $pi = 0.0;
 
-    private static int $accuracy = 1000000; //this accuracy can handle the basic 3.14 PI value only
+    private static int $accuracy = 1000000; //this accuracy can handle the basic 3.14 PI value on the most simple machines
 
     public static function getPi(int $digits=2): float
     {

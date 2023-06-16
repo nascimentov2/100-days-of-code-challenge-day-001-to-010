@@ -18,9 +18,7 @@ final class PiTest extends TestCase
      */
     public function test_get_pi(int $digits, float $expected): void
     {
-        $pi = new Pi;
-
-        $result = $pi::getPi($digits);
+        $result = Pi::getPi($digits);
 
         $this->assertEquals($expected, $result);
     }
